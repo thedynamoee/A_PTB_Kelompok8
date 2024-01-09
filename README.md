@@ -6,3 +6,5 @@ Kelompok 8 :
 2. Shabrina Elfani Gucy	(2111521005)
 3. Rakhilca Yanedika (2111522005)
 4. Ahmad Rifki Farid (2111523009)
+
+Note : Code di Branch master
