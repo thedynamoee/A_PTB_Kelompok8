@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".view.InformActivity">
+    <ImageView
+        android:id="@+id/btBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_btbackwhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Informasi Lebih Lanjut"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btBack"
+        app:layout_constraintStart_toEndOf="@+id/btBack"
+        app:layout_constraintTop_toTopOf="@+id/btBack" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_medium"
+                android:text="Hubungi Kami Via WhatsApp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ellipse"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_semibold"
+                android:text="Eleco"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:drawableEnd="@drawable/ic_verified"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_semibold"
+                android:text="Hi, tell me more about Eleco!"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnextChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="10dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/inter_semibold"
+                android:text="Lanjut ke Chat"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

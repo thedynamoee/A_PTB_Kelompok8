@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/primary">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Kamu akan menukarkan 10 EP dengan Voucher Bebas Akses 7 Hari Viu Premium"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_medium"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#BFBFBF"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btBatal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Batal"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bt_roundedprimary"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btConfirm"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Tukar"
+            android:textAllCaps="false"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/primary"
+            android:background="@drawable/bt_roundedwhite"/>
+
+    </LinearLayout>
+</LinearLayout>

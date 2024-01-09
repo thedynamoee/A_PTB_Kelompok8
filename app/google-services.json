@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215644213894",
+    "project_id": "eleco-d360f",
+    "storage_bucket": "eleco-d360f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215644213894:android:1ae9883f2e63f0d4173707",
+        "android_client_info": {
+          "package_name": "com.eleco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL1HJ-af8zghT3P1POO7fMJVAGCHgg1FE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

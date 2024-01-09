@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.dashboard.fragment.SetorFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:fontFamily="@font/inter_semibold"
+           android:text="Setor Yuk !"
+           android:textColor="@color/black"
+           android:textSize="30sp"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <LinearLayout
+           android:id="@+id/linearLayout3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:background="@drawable/bg_alpha_rounded"
+           android:elevation="10dp"
+           android:orientation="vertical"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:fontFamily="@font/inter_semibold"
+               android:text="Pilih Jenis E-Waste"
+               android:textColor="@color/black"
+               android:textSize="20sp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginEnd="10dp"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter"
+                       android:text="Kabel"
+                       android:textColor="@color/black"
+                       android:textSize="18sp" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter_medium"
+                       android:text="2 EP"
+                       android:textColor="@color/grey"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:id="@+id/btMin1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:src="@drawable/ic_min" />
+
+               <TextView
+                   android:id="@+id/txtCount1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:fontFamily="@font/inter_medium"
+                   android:text="0"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+
+               <ImageView
+                   android:id="@+id/btPlus1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="5dp"
+                   android:src="@drawable/ic_plus" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginEnd="10dp"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter"
+                       android:text="Handphone"
+                       android:textColor="@color/black"
+                       android:textSize="18sp" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter_medium"
+                       android:text="10 EP"
+                       android:textColor="@color/grey"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:id="@+id/btMin2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:src="@drawable/ic_min" />
+
+               <TextView
+                   android:id="@+id/txtCount2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:fontFamily="@font/inter_medium"
+                   android:text="0"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+
+               <ImageView
+                   android:id="@+id/btPlus2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="5dp"
+                   android:src="@drawable/ic_plus" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginEnd="10dp"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter"
+                       android:text="Aksesori Komputer/Laptop"
+                       android:textColor="@color/black"
+                       android:textSize="18sp" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter_medium"
+                       android:text="5 EP"
+                       android:textColor="@color/grey"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:id="@+id/btMin3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:src="@drawable/ic_min" />
+
+               <TextView
+                   android:id="@+id/txtCount3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:fontFamily="@font/inter_medium"
+                   android:text="0"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+
+               <ImageView
+                   android:id="@+id/btPlus3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="5dp"
+                   android:src="@drawable/ic_plus" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginEnd="10dp"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter"
+                       android:text="Parts Komputer/Laptop"
+                       android:textColor="@color/black"
+                       android:textSize="18sp" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter_medium"
+                       android:text="5 EP"
+                       android:textColor="@color/grey"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:id="@+id/btMin4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:src="@drawable/ic_min" />
+
+               <TextView
+                   android:id="@+id/txtCount4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:fontFamily="@font/inter_medium"
+                   android:text="0"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+
+               <ImageView
+                   android:id="@+id/btPlus4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="5dp"
+                   android:src="@drawable/ic_plus" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginEnd="10dp"
+               android:gravity="center"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter"
+                       android:text="Komputer/PC/Laptop"
+                       android:textColor="@color/black"
+                       android:textSize="18sp" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/inter_medium"
+                       android:text="50 EP"
+                       android:textColor="@color/grey"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:id="@+id/btMin5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:src="@drawable/ic_min" />
+
+               <TextView
+                   android:id="@+id/txtCount5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:fontFamily="@font/inter_medium"
+                   android:text="0"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+
+               <ImageView
+                   android:id="@+id/btPlus5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginEnd="5dp"
+                   android:src="@drawable/ic_plus" />
+
+           </LinearLayout>
+
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="4dp"
+               android:layout_marginTop="10dp"
+               android:background="@color/white" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:fontFamily="@font/inter_light"
+                   android:text="Total poin"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+
+               <TextView
+                   android:id="@+id/txtTotalCount"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:fontFamily="@font/inter_medium"
+                   android:text="0 EP"
+                   android:textColor="@color/black"
+                   android:textSize="20sp" />
+           </LinearLayout>
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="20dp"
+           android:fontFamily="@font/inter_semibold"
+           android:text="Lokasi Elebox"
+           android:textColor="@color/black"
+           android:textSize="20sp"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+       <TextView
+           android:id="@+id/btPilihLokasi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/inter_medium"
+           android:text="Pilih"
+           android:textColor="@color/grey"
+           android:textSize="16sp"
+           android:layout_marginEnd="20dp"
+           app:layout_constraintBottom_toBottomOf="@+id/textView4"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="@+id/textView4" />
+       <LinearLayout
+           android:id="@+id/layoutLokasi"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:gravity="center_vertical"
+           android:visibility="gone"
+           android:orientation="vertical"
+           app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal">
+               <ImageView
+                   android:layout_width="24dp"
+                   android:layout_height="24dp"
+                   android:src="@drawable/ic_lokasi"/>
+               <TextView
+                   android:id="@+id/txtNameLokasi"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="@font/inter_medium"
+                   android:text=""
+                   android:layout_marginStart="10dp"
+                   android:textColor="@color/black"
+                   android:textSize="20sp"
+                   app:layout_constraintTop_toBottomOf="@+id/textView4" />
+           </LinearLayout>
+
+           <TextView
+               android:id="@+id/txtDescLokasi"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/inter_medium"
+               android:text=""
+               android:layout_marginStart="35dp"
+               android:textColor="@color/grey"
+               android:textSize="16sp"
+               app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+       </LinearLayout>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btLanjut"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="20dp"
+           android:background="@drawable/rounded_button"
+           android:fontFamily="@font/inter_semibold"
+           android:text="Lanjut"
+           android:textAllCaps="false"
+           android:textColor="@color/white"
+           android:textSize="20sp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/layoutLokasi" />
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

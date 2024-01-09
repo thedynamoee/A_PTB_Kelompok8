@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_poin_white"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tukar Poin"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/inter_semibold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/titleas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat! Kamu berhasil melakukan penukaran poin"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/poinMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 0 EP"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:textSize="20sp"/>
+    <ImageView
+        android:id="@+id/btHapus"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_dropdowndelete"/>
+</LinearLayout>

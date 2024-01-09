@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:iconTint="@color/primary"
+        />
+    <item
+        android:id="@+id/setor"
+        android:icon="@drawable/ic_setor"
+        android:title="Setor"
+        android:iconTint="@color/primary"/>
+    <item
+        android:id="@+id/komunitas"
+        android:icon="@drawable/ic_komunitas"
+        android:title="Komunitas"
+        android:iconTint="@color/primary"/>
+    <item
+        android:id="@+id/tukarpoin"
+        android:icon="@drawable/ic_poin"
+        android:title="Poin"
+        android:iconTint="@color/primary"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        android:iconTint="@color/primary"/>
+</menu>
